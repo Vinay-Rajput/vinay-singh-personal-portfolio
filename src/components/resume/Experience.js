@@ -11,31 +11,31 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="ROR Developer"
+            subTitle="Yuvasoft Solutions (2022 - Present)"
+            result="Indore"
+            des="Currently employed as a Ruby on Rails (ROR) Developer at Yuvasoft Solutions, leveraging expertise in web development to contribute to dynamic projects. Engaged in crafting efficient and scalable solutions while collaborating with cross-functional teams to deliver high-quality software products."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Junior Software Engineer"
+            subTitle="Zehntech Technologies (2021 - 2022)"
+            result="Indore"
+            des="Served as a Junior Software Engineer at Zehntech Technologies from 2021 to 2022, gaining hands-on experience in software development methodologies and tools. Contributed to the development and enhancement of software solutions, demonstrating adaptability and a keen eye for detail."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,7 +60,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
