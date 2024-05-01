@@ -1,6 +1,24 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn , FaInstagram} from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+
+const LinkedInIcon = () => (
+  <a href="https://www.linkedin.com/in/vinay-singh-rajput" target="_blank" rel="noopener noreferrer">
+    <FaLinkedinIn />
+  </a>
+);
+
+const InstagramIcon = () => (
+  <a href="https://www.instagram.com/vinay_rajput_002" target="_blank" rel="noopener noreferrer">
+    <FaInstagram />
+  </a>
+);
+
+const FacebookIcon = () => (
+  <a href="https://www.facebook.com/vinay.chouhan.777158" target="_blank" rel="noopener noreferrer">
+    <FaFacebookF />
+  </a>
+);
 
 const ContactLeft = () => {
   return (
@@ -30,13 +48,13 @@ const ContactLeft = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <FacebookIcon />
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <InstagramIcon />
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <LinkedInIcon />
           </span>
         </div>
       </div>

@@ -1,6 +1,25 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn , FaInstagram} from "react-icons/fa";
 import { DiRor, DiRuby, DiJavascript1, DiGithubBadge } from "react-icons/di";
+
+const LinkedInIcon = () => (
+  <a href="https://www.linkedin.com/in/vinay-singh-rajput" target="_blank" rel="noopener noreferrer">
+    <FaLinkedinIn />
+  </a>
+);
+
+const InstagramIcon = () => (
+  <a href="https://www.instagram.com/vinay_rajput_002" target="_blank" rel="noopener noreferrer">
+    <FaInstagram />
+  </a>
+);
+
+const FacebookIcon = () => (
+  <a href="https://www.facebook.com/vinay.chouhan.777158" target="_blank" rel="noopener noreferrer">
+    <FaFacebookF />
+  </a>
+);
+
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -10,13 +29,13 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <FacebookIcon />
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+              <InstagramIcon />
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <LinkedInIcon />
             </span>
           </div>
         </div>
